@@ -14,12 +14,12 @@ export default {
   },
   created () {
     // ดึงค่า userId จาก URL
-    console.log("created userId",this.userId)
+    console.log("created menuId",this.menuId)
   },
   mounted () {
     // ดึงค่า userId จาก URL
     this.userId = this.$route.params.userId
-    console.log("mounted userId",this.userId)
+    console.log("mounted menuId",this.menuId)
   }
 }
 </script>

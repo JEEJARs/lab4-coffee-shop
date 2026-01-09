@@ -1,12 +1,17 @@
 <template>
   <div>
-    <h1>Get All Users</h1>
+    <h1>Get All Menu</h1>
+    <p><button @click="navigateTo('/Menus/create')">สร้างเมนู</button></p>
   </div>
 </template>
 
 <script>
 export default {
-  // Logic จะเขียนตรงนี้
+  methods: {
+    navigateTo (route) {
+      this.$router.push(route)
+    }
+  }
 }
 </script>
 

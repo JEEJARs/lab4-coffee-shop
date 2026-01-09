@@ -20,7 +20,7 @@ const router = createRouter({
       component: CreateMenu
     },
     {
-      path: '/Menus/edit',
+      path: '/Menus/edit/:menuId',
       name: 'Menu-edit',
       component: EditMenu
     },
