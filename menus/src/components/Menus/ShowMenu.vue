@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Edit Menu</h1>
+    <h1>Show Menu</h1>
   </div>
 </template>
 

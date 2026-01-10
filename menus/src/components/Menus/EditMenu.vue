@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Show User</h1>
+    <h1>Edit Menu</h1>
     <p>Menu ID: {{ menuId }}</p>
   </div>
 </template>
@@ -14,13 +14,13 @@ export default {
   },
   created () {
     // ดึงค่า userId จาก URL
-    console.log("created menuId",this.menuId)
+    console.log("created menuId:", this.menuId)
   },
   mounted () {
-    // ดึงค่า userId จาก URL
-    this.userId = this.$route.params.userId
-    console.log("mounted menuId",this.menuId)
+    this.menuId = this.$route.params.menuId
+    console.log("mounted menuId:", this.menuId)
   }
+
 }
 </script>
 

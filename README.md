@@ -1,6 +1,5 @@
-![Repo Views](https://github.com/JEEJARs/lab4-coffee-shop.git)
-# LAB For Assignment SSP
-Songwut
-## 📌 Lab 4: RESTful API 
-
-## 📌 Lab 6:Database Connection with SQLite & Sequelize
+"# Lab4_CoffeeShop" 
+- 4.Web Server
+- 5.Controller
+- 6.SQLite & Sequelize
+- 7.Vue.js

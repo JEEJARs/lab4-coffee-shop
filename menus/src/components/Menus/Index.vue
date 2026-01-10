@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Get All Menu</h1>
-    <p><button @click="navigateTo('/Menus/create')">สร้างเมนู</button></p>
+    <h1>Get All Menus</h1>
+    <p><button @click="navigateTo('/menu/create')">สร้างเมนูใหม่!!!</button></p>
   </div>
 </template>
 
